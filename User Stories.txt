@@ -1,0 +1,1 @@
+Developer creates ruby app template

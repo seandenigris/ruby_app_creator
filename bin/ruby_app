@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
+require 'ruby_app_creator'
+
+create_application = RubyApplicationCreator::CreateApplicationProcedure.new ARGV[0], TemplateProcessor.new
+create_application.execute
